@@ -1,0 +1,11 @@
+C:\Users\Theo\source\repos\Automated Email\Automated Email\bin\Debug\Automated Email.exe.config
+C:\Users\Theo\source\repos\Automated Email\Automated Email\bin\Debug\Automated Email.exe
+C:\Users\Theo\source\repos\Automated Email\Automated Email\bin\Debug\Automated Email.pdb
+C:\Users\Theo\source\repos\Automated Email\Automated Email\obj\Debug\Automated Email.csprojAssemblyReference.cache
+C:\Users\Theo\source\repos\Automated Email\Automated Email\obj\Debug\Automated_Email.AutomatedEmail.resources
+C:\Users\Theo\source\repos\Automated Email\Automated Email\obj\Debug\Automated_Email.Properties.Resources.resources
+C:\Users\Theo\source\repos\Automated Email\Automated Email\obj\Debug\Automated Email.csproj.GenerateResource.cache
+C:\Users\Theo\source\repos\Automated Email\Automated Email\obj\Debug\Automated Email.csproj.CoreCompileInputs.cache
+C:\Users\Theo\source\repos\Automated Email\Automated Email\obj\Debug\Automated Email.exe
+C:\Users\Theo\source\repos\Automated Email\Automated Email\obj\Debug\Automated Email.pdb
+C:\Users\Theo\source\repos\Automated Email\Automated Email\obj\Debug\Automated_Email.AddressPrompt.resources
