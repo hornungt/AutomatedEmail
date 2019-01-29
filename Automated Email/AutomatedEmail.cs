@@ -20,6 +20,7 @@ namespace Automated_Email
             InitializeComponent();
             // filePath should be C:\Users\[UserName]\Documents\AutomatedEmails
             filePath = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + @"\Documents\Automated Emails";
+            this.InitDirectory();
             this.RefreshAddressList();
         }
 
@@ -233,7 +234,7 @@ namespace Automated_Email
                 Timeout = 10000,
                 DeliveryMethod = SmtpDeliveryMethod.Network,
                 UseDefaultCredentials = false,
-                Credentials = new NetworkCredential("your_email_here@gmail.com", "your gmail password")
+                Credentials = new NetworkCredential("tthornung@gmail.com", "jwutlfzefhyhwipx")
             };
             MailMessage msg = new MailMessage(from, to)
             {
@@ -251,6 +252,21 @@ namespace Automated_Email
             }
             msg.Dispose();
             return sent;
+        }
+
+        /// <summary>
+        /// Creates folder structure for the project.
+        /// </summary>
+        private void InitDirectory()
+        {
+            List<string> directory =
+                    new List<string>(System.IO.Directory.GetDirectories(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + @"\Documents"));
+            if (!directory.Contains(this.filePath))
+            {
+                System.IO.Directory.CreateDirectory(filePath);
+                var file = File.Create(filePath + @"\email list.txt");
+                file.Close();
+            }
         }
     }
 }
