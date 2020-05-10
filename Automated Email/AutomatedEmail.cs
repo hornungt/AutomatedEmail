@@ -234,7 +234,7 @@ namespace Automated_Email
                 Timeout = 10000,
                 DeliveryMethod = SmtpDeliveryMethod.Network,
                 UseDefaultCredentials = false,
-                Credentials = new NetworkCredential("tthornung@gmail.com", "jwutlfzefhyhwipx")
+                Credentials = new NetworkCredential("tthornung@gmail.com", "GMAIL_DEV_PASSWORD")
             };
             MailMessage msg = new MailMessage(from, to)
             {
